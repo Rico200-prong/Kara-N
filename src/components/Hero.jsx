@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "./minicomponents/heading";
+import Heading from "./minicomponents/Heading";
 import Button from "./minicomponents/Button";
 import Text from "./minicomponents/Text";
 
