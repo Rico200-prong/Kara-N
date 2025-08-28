@@ -12,11 +12,11 @@ const Steps = () => {
           text={
             "With lots of unique blocks, you can easily build a page without coding. Build your next landing page."
           }
-          className={"w-[50%] text-center"}
+          className={"w-[100%] lg:w-[50%] lg:text-center"}
         />
       </div>
-      <div className="flex items-center justify-between">
-        <div className="w-[425px]">
+      <div className="flex lg:flex-row flex-col items-center gap-y-[50px] justify-between">
+        <div className="lg:w-[425px]">
           <img src="/stepsimg.png" alt="" />
         </div>
         <div>
@@ -28,7 +28,7 @@ const Steps = () => {
               <h3 className="text-[21px] text-[#161C2D] font-[700] mb-[15px]">
                 Search for a job
               </h3>
-              <p className="text-[17px] text-[#161c2dbb] w-[60%] leading-[29px]">
+              <p className="text-[17px] text-[#161c2dbb] w-[100%] lg:w-[60%] leading-[29px]">
                 With lots of unique blocks, you can easily build a page without
                 coding.
               </p>
@@ -42,7 +42,7 @@ const Steps = () => {
               <h3 className="text-[21px] text-[#161C2D] font-[700] mb-[15px]">
                 Apply within our website
               </h3>
-              <p className="text-[17px] text-[#161c2dbb] w-[60%] leading-[29px]">
+              <p className="text-[17px] text-[#161c2dbb] w-[100%] lg:w-[60%] leading-[29px]">
                 With lots of unique blocks, you can easily build a page without
                 coding.
               </p>
@@ -56,7 +56,7 @@ const Steps = () => {
               <h3 className="text-[21px] text-[#161C2D] font-[700] mb-[15px]">
                 Get interview call
               </h3>
-              <p className="text-[17px] text-[#161c2dbb] w-[60%] leading-[29px]">
+              <p className="text-[17px] text-[#161c2dbb] w-[100%] lg:w-[60%] leading-[29px]">
                 With lots of unique blocks, you can easily build a page without
                 coding.
               </p>

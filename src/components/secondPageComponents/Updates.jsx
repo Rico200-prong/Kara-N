@@ -5,7 +5,7 @@ import Button from "./../minicomponents/Button";
 
 const Updates = () => {
   return (
-    <section className="flex flex-col items-center justify-center mx-[300px] py-[100px]">
+    <section className="flex flex-col items-center justify-center mx-[25px] lg:mx-[50px] 2xl:mx-[300px] py-[100px]">
       <div className="bg-[#68D585] rounded-full flex items-center justify-center w-[78px] h-[78px]">
         <i class="bxr  bx-folder-open text-[#2D2D2D] text-[30px]"></i>{" "}
       </div>
@@ -15,13 +15,13 @@ const Updates = () => {
           headingText={"Get our latest updates"}
         />
         <Text
-          className={"w-[55%] text-center "}
+          className={"lg:w-[55%] w-[100%] text-center "}
           text={
             "With lots of unique blocks, you can easily build a page without coding. Build your next landing page."
           }
         />
       </div>
-      <form className="flex my-[30px]">
+      <form className="flex lg:flex-row flex-col gap-y-[20px] my-[30px]">
         <input
           type="text"
           placeholder="Enter your email"

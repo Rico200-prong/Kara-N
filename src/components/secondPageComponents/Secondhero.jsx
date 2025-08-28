@@ -5,9 +5,9 @@ import Button from "./../minicomponents/Button";
 
 const Secondhero = () => {
   return (
-    <section className="px-[300px] pt-[50px] bg-[#68D5851A]">
-      <div className="flex gap-[150px]">
-        <div className="w-[40%] mt-[90px]">
+    <section className="px-[25px] lg:px-[50px] 2xl:px-[300px] pt-[50px] bg-[#68D5851A]">
+      <div className="flex lg:flex-row flex-col  gap-[150px]">
+        <div className="lg:w-[40%] w-[100%] mt-[90px]">
           <Heading
             className="text-[60px] leading-[65px] mb-[20px]"
             headingText={"Find a dream job that changes life."}
@@ -17,7 +17,7 @@ const Secondhero = () => {
               "With lots of unique blocks, you can easily build a page without coding. Build your next job website."
             }
           />
-          <p className="mt-[150px] text-[#161C2D]">
+          <p className="mt-[300px] lg:mt-[150px]  text-[#161C2D]">
             Try Product Designer, Software Engineer etc.
           </p>
         </div>
@@ -25,8 +25,8 @@ const Secondhero = () => {
           <img src="/hero2lady.png" alt="lady-on-blue" />
         </div>
       </div>
-      <div className="absolute top-[550px] left-[300px]">
-        <form className="flex items-center gap-[15px] bg-[#473BF0] px-[20px] py-[20px] rounded-[10px]">
+      <div className="absolute lg:top-[550px] top-[600px] lg:left-[300px]">
+        <form className="flex lg:flex-row flex-col  items-center gap-[15px] bg-[#473BF0] px-[20px] py-[20px] rounded-[10px]">
           <input
             type="text"
             placeholder="Job title or keyword"

@@ -4,15 +4,15 @@ import Text from "./../minicomponents/Text";
 
 const Jobs = () => {
   return (
-    <section className="bg-[#161C2D] px-[300px] py-[100px]">
-      <div className="flex items-end justify-between">
+    <section className="bg-[#161C2D] px-[25px] lg:px-[50px] 2xl:px-[300px] py-[100px]">
+      <div className="lg:flex items-end  justify-between">
         <div>
           <Heading
             className={"text-white text-[36px]"}
             headingText={"Jobs by category"}
           />
           <Text
-            className={"text-white w-[60%]"}
+            className={"text-white w-[100%] lg:w-[60%]"}
             text={
               "With lots of unique blocks, you can easily build a page without coding."
             }
@@ -22,7 +22,7 @@ const Jobs = () => {
           <p className="text-[#68D585]">Explore all categories</p>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-x-[30px] gap-y-[30px] mt-[70px]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-[30px] gap-y-[30px] mt-[70px]">
         <div className="bg-[#473BF0] p-[30px] rounded-[10px] flex items-center justify-between">
           <div>
             <p className="text-white font-[700] text-[21px] mb-[15px]">
